@@ -18,7 +18,7 @@ public class DemoApplication {
 		@GetMapping("/")
 		public String getMethodName() {
 			
-			return "h1";
+			return "h1";   
 		}
 		
 	}
