@@ -1,0 +1,16 @@
+.Gallery-gird{
+    display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 100px 100px;
+}
+.col{
+    justify-self: center !important;
+}
+
+.AdoptGallery-Container{
+  width: 90%;
+  margin: auto;
+  margin-top: 60px;
+}
