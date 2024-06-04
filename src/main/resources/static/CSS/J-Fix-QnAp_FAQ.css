@@ -1,0 +1,112 @@
+@import url('/css/reset.css');
+
+/* FAQ 검색창 */
+
+.search-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+.search-container input[type="text"] {
+  width: 100%;
+  padding: 10px 20px 10px 40px;
+  border-radius: 10px;
+}
+
+.search_icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 18px;
+}
+
+/* FAQ 상단 배너 */
+.Top-Banner{
+  margin: auto;
+  width: 90%;
+  height: 400px;
+  display: flex;
+flex-wrap: wrap;
+}
+.Top-Banner-Text{
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.TB-text{
+  flex: 0.3 0.7 auto;
+margin-top: 120px;
+padding-left:auto;
+  }
+.TB-image{
+width: 60%; 
+margin-left: auto;
+border-radius: 10px;
+  background-image: url('/Image/M-AdoptImage.jpg'); /*배경 이미지 삽입 */
+background-size: 100% 100%;
+margin-bottom: 50px;
+}
+
+.TB-text-btn{
+  width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Adopt-TB-AnimalCount{
+  font-weight: 900;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.FAQ-btn {
+  background-color: #5297AC;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.FAQ-btn:hover {
+  color: #fff;
+  background-color: #325f6c;
+}
+
+.FAQ-btn:active {
+  color: #fff;
+  background-color: #325f6c;
+}
+
+.Question-btn {
+  color: white;
+  background-color: #FDC456;
+}
+
+.Question-btn:hover {
+  color: #fff;
+  background-color: #f5a300;
+}
+
+.Question-btn:active {
+  color: #fff;
+  background-color: #f5a300;
+}
+
+
+
+/* 아코디언 버튼 부트스트랩 수정(우선순위 지정) */
+.accordion-button:focus {
+  box-shadow: none !important;
+  border-color: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #fff !important;
+  background-color: #bdbdbd !important;
+}

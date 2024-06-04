@@ -1,0 +1,40 @@
+
+/* FAQ 검색창 */
+.FAQ_Container {
+  margin: auto;
+}
+
+.search-container {
+  position: relative;
+  width: 400px;
+  margin-bottom: 30px;
+}
+.search-container input[type="text"] {
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+}
+
+.search_icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 18px;
+}
+/* FAQ 검색창 끝 */
+
+
+/* 아코디언 버튼 부트스트랩 수정(우선순위 지정) */
+.accordion-button:focus {
+  box-shadow: none !important;
+  border-color: none !important;
+}
+.accordion-button:not(.collapsed) {
+  color: #fff !important;
+  background-color: #5e5e5e !important;
+}
+
+.accordion-btn-font{
+  font-size: 22px;
+    font-weight: bolder;
+    color: #5e5e5e;
+}
